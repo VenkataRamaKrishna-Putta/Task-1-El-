@@ -1,1 +1,1 @@
-# Task-1-El-
+First, I started to draw the ER diagram in DIA with three entities: Products, Customers, and Orders. I added relevant attributes to each entity and specified a primary key for each. Then, I connected the entities using appropriate relationships. After that, I created the corresponding tables — Products, Customers, and Orders — using SQL CREATE commands, and applied constraints to each table.
