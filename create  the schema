@@ -1,0 +1,7 @@
+CREATE TABLE Amazon (
+    Customer_id INT PRIMARY KEY,
+    Name VARCHAR(30),
+    Product_id INT NOT NULL,
+    Quantity INT,
+    FOREIGN KEY (Product_id) REFERENCES Products(Product_id)
+);
